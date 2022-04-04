@@ -1,0 +1,19 @@
+version: 0.0
+os: windows
+files:
+  - source: source
+    destination: c:\aws\_output
+hooks:
+  BeforeInstall:
+    - location: 
+    - location: 
+  AfterInstall:
+    - location: 
+      timeout: 180
+  ApplicationStart:
+    - location: 
+      timeout: 3600
+  ValidateService:
+    - location: 
+      timeout: 3600
+
